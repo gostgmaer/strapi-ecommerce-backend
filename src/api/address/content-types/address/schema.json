@@ -32,6 +32,16 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "addresses"
+    },
+    "uuid": {
+      "type": "string",
+      "unique": true
+    },
+    "user": {
+      "type": "string"
+    },
+    "pincode": {
+      "type": "string"
     }
   }
 }
