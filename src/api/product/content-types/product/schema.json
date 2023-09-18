@@ -72,12 +72,6 @@
     "color": {
       "type": "json"
     },
-    "review": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::review.review",
-      "mappedBy": "product"
-    },
     "cartitem": {
       "type": "relation",
       "relation": "manyToOne",

@@ -18,17 +18,20 @@
     "rating": {
       "type": "decimal"
     },
-    "product": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::product.product",
-      "inversedBy": "review"
-    },
     "users_permissions_user": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "reviews"
+    },
+    "username": {
+      "type": "string"
+    },
+    "userimage": {
+      "type": "string"
+    },
+    "product": {
+      "type": "string"
     }
   }
 }
